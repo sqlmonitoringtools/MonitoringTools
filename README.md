@@ -6,12 +6,12 @@ SQL_Monitoring by agent jobs
  
 SQL_Monitoring_by_Powershell
           This is a very comprehensive tool to monitor SQL servers by Powershell commands. It only requires the latest version of PowerShell to work and the destination port should be reachable. It has the following advantages:
-       1. Monitor Azure SQL Database, Managed instance, and Onprem SQL server.
-       2. Future support for Azure synapse analytics
-       3. Visualize data with Powerbi
-       4. Fully customizable to add additional scripts to collect data.
-       5. Collect performance data either for a single database or all databases.
-       6. Monitor performance data on ReadOnly replicas (Onprem/Azure SQL DB/Managed Instances)
+1. Monitor Azure SQL Database, Managed instance, and Onprem SQL server.
+2. Future support for Azure synapse analytics
+3. Visualize data with Powerbi
+4. Fully customizable to add additional scripts to collect data.
+5. Collect performance data either for a single database or all databases.
+6. Monitor performance data on ReadOnly replicas (Onprem/Azure SQL DB/Managed Instances)
        
 ## Prerequisites
 - SQL login that has access to both the user database and master database
