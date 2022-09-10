@@ -37,7 +37,8 @@ SQL_Monitoring_by_Powershell
            Set-Executionpolicy -Scope CurrentUser -ExecutionPolicy UnRestricted
 
 5. When an issue occurs, type the following command from PowerShell. This will load all functions in memory.
-      . .\SQL_Performance_Data_Capture.ps1
+  
+          . .\SQL_Performance_Data_Capture.ps1
      
 6. Run the following command to start data collection:
         Run_SQL_Perf_Collection -PerCollectionTime_In_Min 30 -samplingPeriod_In_Sec 5 -ApplicationIntentReadOnly 0
