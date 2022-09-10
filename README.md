@@ -41,4 +41,5 @@ SQL_Monitoring_by_Powershell
           . .\SQL_Performance_Data_Capture.ps1
      
 6. Run the following command to start data collection:
-        Run_SQL_Perf_Collection -PerCollectionTime_In_Min 30 -samplingPeriod_In_Sec 5 -ApplicationIntentReadOnly 0
+
+          Run_SQL_Perf_Collection -PerCollectionTime_In_Min 30 -samplingPeriod_In_Sec 5 -ApplicationIntentReadOnly 0
