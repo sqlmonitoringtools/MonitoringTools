@@ -1,11 +1,13 @@
-You can try any of the tools based on your requirement to monitor SQL server instances. We have Powerbi that will help you to visualize the collected dataset and take decisions to troubleshoot expensive queries.
+You can try any tool based on your requirement to monitor SQL server instances. There is a Powerbi that will help you to visualize the collected dataset and take decisions to troubleshoot expensive queries.
 
 SQL_Monitoring by agent jobs
-          This tool is limited to working only with Azure Managed Instance and OnPrem SQL instances. It requires the SQL server agent to run certain queries at every 5 second of interval and dump results set in the DBAdmin database. Also, it comes with 7 days of data retention to minimize the database size. To change the data retention period, you can modify the purge job.          
+
+This tool is limited to working only with Azure Managed Instance and OnPrem SQL instances. It requires the SQL server agent to run certain queries at every 5 second of interval and dump results set in the DBAdmin database. Also, it comes with 7 days of data retention to minimize the database size. To change the data retention period, you can modify the purge job.          
  
  
 SQL_Monitoring_by_Powershell
-          This is a very comprehensive tool to monitor SQL servers by Powershell commands. It only requires the latest version of PowerShell to work and the destination port should be reachable. It has the following advantages:
+          
+This is a very comprehensive tool to monitor SQL servers by Powershell commands. It only requires the latest version of PowerShell to work and the destination port should be reachable. It has the following advantages:
 1. Monitor Azure SQL Database, Managed instance, and Onprem SQL server.
 2. Future support for Azure synapse analytics
 3. Visualize data with Powerbi
